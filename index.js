@@ -1,5 +1,5 @@
 /**
- * Arslan-Tech-Bot Bot - A WhatsApp Bot
+ * ZAYN-MARRY_BOT Bot - A WhatsApp Bot
  * Copyright (c) 2024 Professor
  * 
  * This program is free software: you can redistribute it and/or modify
@@ -7,7 +7,7 @@
  * 
  * Credits:
  * - Baileys Library by @adiwajshing
- * - Pair Code implementation inspired by Arslan-Tech & Arslan-MD
+ * - Pair Code implementation inspired by ANNAS-ZAYN-MARRY_BOT
  */
 require('./settings')
 const { Boom } = require('@hapi/boom')
