@@ -1024,7 +1024,7 @@ case userMessage.startsWith('.sudo'):
 
                     if (!groupJid.endsWith('@g.us')) {
                         return await sock.sendMessage(chatId, {
-                            text: "👥 ARSLAN BOT says: You must be in a group to use this."
+                            text: "👥 GADDAR BOT says: You must be in a group to use this."
                         });
                     }
 
@@ -1056,7 +1056,7 @@ case userMessage.startsWith('.sudo'):
         // Only try to send error message if we have a valid chatId
         if (chatId) {
             await sock.sendMessage(chatId, {
-                text: '💥 Error! ARSLAN BOT couldn’t complete your request.',
+                text: '💥 Error! GADDAR BOT couldn’t complete your request.',
                 ...channelInfo
             });
         }
@@ -1096,7 +1096,7 @@ async function handleGroupParticipantUpdate(sock, update) {
             // Get welcome message from data
             const data = JSON.parse(fs.readFileSync('./data/userGroupData.json'));
             const welcomeData = data.welcome[id];
-            const welcomeMessage = welcomeData?.message || '👑 ARSLAN BOT: Hail {user}! The group just got cooler with you here!';
+            const welcomeMessage = welcomeData?.message || '👑 GADDAR BOT: Hail {user}! The group just got cooler with you here!';
             const channelId = welcomeData?.channelId || '120363348739987203@newsletter';
 
             // Send welcome message for each new participant
@@ -1115,7 +1115,7 @@ async function handleGroupParticipantUpdate(sock, update) {
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
                             newsletterJid: channelId,
-                            newsletterName: 'ARSLAN BOT',
+                            newsletterName: 'GADDAR BOT',
                             serverMessageId: -1
                         }
                     }
@@ -1154,7 +1154,7 @@ async function handleGroupParticipantUpdate(sock, update) {
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
                             newsletterJid: channelId,
-                            newsletterName: 'ARSLAN BOT',
+                            newsletterName: 'ZAYN_MARRY BOT',
                             serverMessageId: -1
                         }
                     }
