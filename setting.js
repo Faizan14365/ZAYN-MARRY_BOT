@@ -20,7 +20,7 @@ const settings = {
   // 📝 Meta Information
   description: '💬 A fun, powerful & stylish WhatsApp MD bot created with ❤️ by ARSLAN POWER.',
   version: '2.0.0',
-updateZipUrl: "https://github.com/Arslan-MD/Arslan-Tech-MD/archive/refs/heads/main.zip",
+updateZipUrl: "https://github.com/Faizan14365/ZAYN-MARRY_BOT.git",
 
 };
 
