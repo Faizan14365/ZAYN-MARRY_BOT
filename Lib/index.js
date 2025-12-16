@@ -147,8 +147,8 @@ async function startXeonBotInc() {
                             forwardingScore: 1,
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
-                                newsletterJid: '120363348739987203@newsletter',
-                                newsletterName: 'Arslan-Tech-MD',
+                                newsletterJid: '0029VbCEM7dEAKWKQ6pMmj0X@newsletter',
+                                newsletterName: 'ZAYN-MARRY_BOT',
                                 serverMessageId: -1
                             }
                         }
