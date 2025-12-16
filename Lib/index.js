@@ -147,7 +147,7 @@ async function startXeonBotInc() {
                             forwardingScore: 1,
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
-                                newsletterJid: '0029VbCEM7dEAKWKQ6pMmj0X@newsletter',
+                                newsletterJid: '120363405256521406@newsletter',
                                 newsletterName: 'ZAYN-MARRY_BOT',
                                 serverMessageId: -1
                             }
@@ -247,7 +247,7 @@ async function startXeonBotInc() {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '0029VbCEM7dEAKWKQ6pMmj0X@newsletter',
+                        newsletterJid: '120363405256521406@newsletter',
                         newsletterName: 'ZAYN-MARRY_BOT',
                         serverMessageId: -1
                     }
@@ -260,8 +260,8 @@ async function startXeonBotInc() {
             console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: ARSLANMD OFFICIAL`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: Arslan-MD`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} WA NUMBER: ${owner}`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: ArslanMD Official`))
-            console.log(chalk.green(`${global.themeemoji || '•'}> 🤖 Arslan-Tech-MD Connected Successfully! ✅`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: GADDAR ZAYN Official`))
+            console.log(chalk.green(`${global.themeemoji || '•'}> 🤖 GADDAR-Tech-MD Connected Successfully! ✅`))
             console.log(chalk.blue(`Bot Version: ${settings.version}`))
         }
         if (connection === 'close') {
