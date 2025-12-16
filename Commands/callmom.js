@@ -1,6 +1,6 @@
 module.exports = {
   name: "callmom",
-  description: "Funny command from Arslan-Tech-MD-V2",
+  description: "Funny command from ZAYN-MARRY_BOT",
   category: "fun",
   async run({ conn, m, args }) {
     const delay = ms => new Promise(res => setTimeout(res, ms));
@@ -10,7 +10,7 @@ const messages = [
   '👩‍👦 *Mom:* "Son, what you doing on WhatsApp still ?"',
   '🫣 *You:* "just time pass, mom..."',
   '📵 *Mom:* "Time pass or secret girlfriend? 😏"',
-  '💀 *Bot:* You just got exposed by your *Arslan-Tech-MD-V2* — in 4K.'
+  '💀 *Bot:* You just got exposed by your *ZAYN-MARRY_BOT* — in 4K.'
 ];
 
     for (const msg of messages) {
