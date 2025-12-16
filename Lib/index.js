@@ -1,5 +1,5 @@
 /**
- * Arslan-Tech-Bot Bot - A WhatsApp Bot
+ * ZAYN-MARRY_BOT Bot - A WhatsApp Bot
  * Copyright (c) 2024 Professor
  * 
  * This program is free software: you can redistribute it and/or modify
@@ -7,8 +7,7 @@
  * 
  * Credits:
  * - Baileys Library by @adiwajshing
- * - Pair Code implementation inspired by Arslan-Tech & Arslan-MD
- */
+ * - Pair Code implementation inspired by ZAYN-MARRY_BOT & GADDAR MD
 require('./settings')
 const { Boom } = require('@hapi/boom')
 const fs = require('fs')
@@ -70,7 +69,7 @@ setInterval(() => {
     }
 }, 30_000) // check every 30 seconds
 
-let phoneNumber = "923237045919"
+let phoneNumber = "923143428375"
 let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
 
 global.botname = "ARSLAN-TECH-MD"
@@ -207,7 +206,7 @@ async function startXeonBotInc() {
         if (!!global.phoneNumber) {
             phoneNumber = global.phoneNumber
         } else {
-            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFormat: 923237045919 (without + or spaces) : `)))
+            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFormat: 923143428375 (without + or spaces) : `)))
         }
 
         // Clean the phone number - remove any non-digit characters
@@ -242,14 +241,14 @@ async function startXeonBotInc() {
 
             const botNumber = XeonBotInc.user.id.split(':')[0] + '@s.whatsapp.net';
             await XeonBotInc.sendMessage(botNumber, {
-                text: `> 🤖 _*Arslan-Tech-MD Connected!*_\n\n> ⏰ *Time*: ${new Date().toLocaleString()}\n> ✅ *Status*: Online and Ready!
+                text: `> 🤖 _*GADDAR-Tech-MD Connected!*_\n\n> ⏰ *Time*: ${new Date().toLocaleString()}\n> ✅ *Status*: Online and Ready!
                 \n> ✅Make sure to join below channel`,
                 contextInfo: {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363348739987203@newsletter',
-                        newsletterName: 'Arslan-Tech-MD',
+                        newsletterJid: '0029VbCEM7dEAKWKQ6pMmj0X@newsletter',
+                        newsletterName: 'ZAYN-MARRY_BOT',
                         serverMessageId: -1
                     }
                 }
